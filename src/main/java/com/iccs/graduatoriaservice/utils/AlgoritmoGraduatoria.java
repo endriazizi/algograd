@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class AlgoritmoGraduatoria {
 
 
-    public static List<String> avviaAlgoritmo(  List<Domanda> listDomande) {
+    public static List<String> avviaAlgoritmo(List<Domanda> listDomande) {
 
         List<String> graduatoriaFinale = new ArrayList<>();
         // costruire struttura base
@@ -119,7 +119,15 @@ public class AlgoritmoGraduatoria {
 
                                     listSecondaSceltaPerchePrimaSceltaNonPassate.add(domandaStato.getKey().getIdDomanda());
                                 } else {
-                                    domandaStato.setValue(EnumStatoDomanda.GIA_PRESO_IN_UN_ALTRO_ISTITUTO);
+                                    if (domandaStato.getKey().getEsito().getStringaEsitoNelCsv().equals("Lista anticipatari")) {
+
+//                                        domandaStato.getKey().getPrimaScelta().getNomeScuola().equals("La Grande quercia di Via Leoncavallo")
+//                                                && domandaStato.getKey().getNomePersona().equals("MARCHETTI  ALICE")
+                                        System.out.println("GABBIANO");
+                                        domandaStato.setValue(EnumStatoDomanda.LISTA_ANTICIPATARI);
+                                    } else {
+                                        domandaStato.setValue(EnumStatoDomanda.GIA_PRESO_IN_UN_ALTRO_ISTITUTO);
+                                    }
                                 }
 
                             }
@@ -297,9 +305,26 @@ public class AlgoritmoGraduatoria {
 //                System.out.println("Domanda "+ entry.getKey().getNomePersona() + "- stato : " + entry.getValue() + " - posizione : "+ counterMap);
 
 
+//                posizione++;
+//                String record =                             scuola.getNomeScuola().toString() + ";"
+//                        + entry.getKey().getIdDomanda() + ";"
+//                        + entry.getKey().getNomePersona() + ";"
+//                        + entry.getValue() + ";"
+//                        + posizione + ";"
+//                        + entry.getKey().getEsito() + ";"
+//                        //////// AGGIUNTO PER VERIFICARE IL PUNTEGGIO PRESO
+//                        + (entry.getKey().getPrimaScelta().getIdScuola() == (scuola.getIdScuola()) ?
+//                        entry.getKey().getPunteggioPrimaScelta() : entry.getKey().getPunteggioSecondaScelta()) + ";"
+//                        + entry.getKey().getScelta() + "\n";
+//
+//                System.out.print(record);
+//
+//                graduatoriaFinale.add(record);
+
+
                 if (!entry.getValue().equals(EnumStatoDomanda.GIA_PRESO_IN_UN_ALTRO_ISTITUTO)) {
                     posizione++;
-                    String record =                             scuola.getNomeScuola().toString() + ";"
+                    String record = scuola.getNomeScuola().toString() + ";"
                             + entry.getKey().getIdDomanda() + ";"
                             + entry.getKey().getNomePersona() + ";"
                             + entry.getValue() + ";"
@@ -313,8 +338,8 @@ public class AlgoritmoGraduatoria {
                     System.out.print(record);
 
                     graduatoriaFinale.add(record);
+
                 }
-//                }
 
 
             }

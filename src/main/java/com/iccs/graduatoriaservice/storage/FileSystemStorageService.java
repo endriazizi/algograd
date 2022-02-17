@@ -64,9 +64,12 @@ public class FileSystemStorageService implements StorageService {
         test.add("Word4");
 //        String collect = test.stream().collect(Collectors.joining(";"));
 
-        String collect = graduatoriaFianle.stream().collect(Collectors.joining(";"));
-//        System.out.println("ZIOFRANCO" + collect);
-
+        String collect = graduatoriaFianle.stream().collect(Collectors.joining());
+      System.out.println("ZIOFRANCO" + collect);
+//        writer.write("\n");
+        String header= "Scuola;IdDomanda;Studente;Esito;Posizione;Stato;Punteggio;Scelta";
+        writer.write(header);
+        writer.write("\n");
         writer.write(collect);
         writer.close();
 

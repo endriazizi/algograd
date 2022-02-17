@@ -177,7 +177,7 @@ public class FileController {
                 primaScelta = listScuole.get(5);
                 break;
 
-            case "G. Galilei - Alice (19)":
+            case "G. Galilei - Alice (23)":
                 primaScelta = listScuole.get(6);
                 break;
             case "G. Galilei - Il bosco incantato (23)":
@@ -198,7 +198,7 @@ public class FileController {
             case "Gulliver di Via Flaminia (28)":
                 primaScelta = listScuole.get(12);
                 break;
-            case "I Tre giardini sez primavera (18)":
+            case "I Tre giardini  (18)":
                 primaScelta = listScuole.get(13);
                 break;
             case "Il Giardino fantastico di Via Madonna di Loreto (8)":
@@ -225,7 +225,7 @@ public class FileController {
             case "Peter pan di Via Livorno (19)":
                 primaScelta = listScuole.get(21);
                 break;
-            case "Pirandello - Dire fare... (6)":
+            case "Pirandello - Dire fare... (10)":
                 primaScelta = listScuole.get(22);
                 break;
             case "Pirandello - Milleluci (11)":
@@ -278,7 +278,7 @@ public class FileController {
                 secondaScelta = listScuole.get(5);
                 break;
 
-            case "G. Galilei - Alice (19)":
+            case "G. Galilei - Alice (23)":
                 secondaScelta = listScuole.get(6);
                 break;
             case "G. Galilei - Il bosco incantato (23)":
@@ -299,7 +299,7 @@ public class FileController {
             case "Gulliver di Via Flaminia (28)":
                 secondaScelta = listScuole.get(12);
                 break;
-            case "I Tre giardini sez primavera (18)":
+            case "I Tre giardini  (18)":
                 secondaScelta = listScuole.get(13);
                 break;
             case "Il Giardino fantastico di Via Madonna di Loreto (8)":
@@ -326,7 +326,7 @@ public class FileController {
             case "Peter pan di Via Livorno (19)":
                 secondaScelta = listScuole.get(21);
                 break;
-            case "Pirandello - Dire fare... (6)":
+            case "Pirandello - Dire fare... (10)":
                 secondaScelta = listScuole.get(22);
                 break;
             case "Pirandello - Milleluci (11)":
@@ -387,7 +387,7 @@ public class FileController {
         Scuola scuolaMilano10 = new Scuola(10, "Gaudiano - Mille colori", 7);
         Scuola scuolaMilano11 = new Scuola(11, "Grillo parlante", 8);
         Scuola scuolaMilano12 = new Scuola(12, "Gulliver di Via Flaminia", 29);
-        Scuola scuolaMilano13 = new Scuola(13, "I Tre giardini sez primavera", 18);
+        Scuola scuolaMilano13 = new Scuola(13, "I Tre giardini ", 18);
         Scuola scuolaMilano14 = new Scuola(14, "Il Giardino fantastico di Via Madonna di Loreto", 8);
         Scuola scuolaMilano15 = new Scuola(15, "La giostra", 28);
         Scuola scuolaMilano16 = new Scuola(16, "La Grande quercia di Via Leoncavallo", 31);
@@ -396,7 +396,7 @@ public class FileController {
         Scuola scuolaMilano19 = new Scuola(19, "Mary poppins di Colombarone", 11);
         Scuola scuolaMilano20 = new Scuola(20, "Olivieri - Glicine", 37);
         Scuola scuolaMilano21 = new Scuola(21, "Peter pan di Via Livorno", 19);
-        Scuola scuolaMilano22 = new Scuola(22, "Pirandello - Dire fare...", 6);
+        Scuola scuolaMilano22 = new Scuola(22, "Pirandello - Dire fare...", 10);
         Scuola scuolaMilano23 = new Scuola(23, "Pirandello - Milleluci", 11);
         Scuola scuolaMilano24 = new Scuola(24, "Pirandello - Prato fiorito", 18);
         Scuola scuolaMilano25 = new Scuola(25, "Poi poi di Via Ferraris", 22);

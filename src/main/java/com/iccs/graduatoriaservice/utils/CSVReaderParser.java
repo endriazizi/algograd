@@ -102,7 +102,7 @@ public class CSVReaderParser {
                 primaScelta = listScuole.get(5);
                 break;
 
-            case "G. Galilei - Alice (19)":
+            case "G. Galilei - Alice (23)":
                 primaScelta = listScuole.get(6);
                 break;
             case "G. Galilei - Il bosco incantato (23)":
@@ -123,7 +123,7 @@ public class CSVReaderParser {
             case "Gulliver di Via Flaminia (28)":
                 primaScelta = listScuole.get(12);
                 break;
-            case "I Tre giardini sez primavera (18)":
+            case "I Tre giardini  (18)":
                 primaScelta = listScuole.get(13);
                 break;
             case "Il Giardino fantastico di Via Madonna di Loreto (8)":
@@ -203,7 +203,7 @@ public class CSVReaderParser {
                 secondaScelta = listScuole.get(5);
                 break;
 
-            case "G. Galilei - Alice (19)":
+            case "G. Galilei - Alice (23)":
                 secondaScelta = listScuole.get(6);
                 break;
             case "G. Galilei - Il bosco incantato (23)":
@@ -224,7 +224,7 @@ public class CSVReaderParser {
             case "Gulliver di Via Flaminia (28)":
                 secondaScelta = listScuole.get(12);
                 break;
-            case "I Tre giardini sez primavera (18)":
+            case "I Tre giardini  (18)":
                 secondaScelta = listScuole.get(13);
                 break;
             case "Il Giardino fantastico di Via Madonna di Loreto (8)":
@@ -305,14 +305,14 @@ public class CSVReaderParser {
         Scuola scuolaMilano3 = new Scuola(3, "D.Alighieri Il Giardino delle Meraviglie  Vismara", 35);
         Scuola scuolaMilano4 = new Scuola(4, "D.Alighieri Mongolfiera S.Maria Fabbrecce ", 23);
         Scuola scuolaMilano5 = new Scuola(5, "Filo rosso", 21);
-        Scuola scuolaMilano6 = new Scuola(6, "G. Galilei - Alice", 19);
+        Scuola scuolaMilano6 = new Scuola(6, "G. Galilei - Alice", 23);
         Scuola scuolaMilano7 = new Scuola(7, "G. Galilei - Il bosco incantato", 23);
         Scuola scuolaMilano8 = new Scuola(8, "G.Galilei Tresei B.go S.Maria ", 33);
         Scuola scuolaMilano9 = new Scuola(9, "G.GalileiPollicino Casebruciate ", 11);
         Scuola scuolaMilano10 = new Scuola(10, "Gaudiano - Mille colori", 7);
         Scuola scuolaMilano11 = new Scuola(11, "Grillo parlante", 8);
         Scuola scuolaMilano12 = new Scuola(12, "Gulliver di Via Flaminia", 29);
-        Scuola scuolaMilano13 = new Scuola(13, "I Tre giardini sez primavera", 18);
+        Scuola scuolaMilano13 = new Scuola(13, "I Tre giardini ", 18);
         Scuola scuolaMilano14 = new Scuola(14, "Il Giardino fantastico di Via Madonna di Loreto", 8);
         Scuola scuolaMilano15 = new Scuola(15, "La giostra", 28);
         Scuola scuolaMilano16 = new Scuola(16, "La Grande quercia di Via Leoncavallo", 31);
