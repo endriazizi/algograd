@@ -167,6 +167,7 @@ public class AlgoritmoGraduatoria {
 
 
                 if (resultPrimoConfrontoDaPunteggio == 0) {
+                    System.out.println("PARIMERITO");
                     return (o1.getKey().getNomePersona().compareTo(o2.getKey().getNomePersona()));
                 } else {
                 }
